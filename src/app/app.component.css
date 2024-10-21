@@ -1,0 +1,138 @@
+.back{
+  background: red;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding:0;
+}
+
+.calculator {
+  background-color: #374664;
+  padding: 70px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  width:500px;
+  margin:250px;
+  margin-bottom: -300px;
+  margin-top: 50px;
+}
+
+.display {
+  width: 100%;
+  height: 60px;
+  font-size: 2em;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #141e32;
+  text-align: right;
+  border-radius: 5px;
+  color:#fafbf9
+}
+
+.buttons {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  background-color: #232d41;
+  width: 480px;
+  padding:20px
+}
+
+button {
+  font-size: 1.5em;
+  padding: 20px;
+  border: none;
+  background-color: #e6e1d7;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #d4d4d4;
+}
+
+button.clear {
+  grid-column: span 2;
+}
+
+button.clear {
+  background-color: #646e96;
+  color: white;
+}
+button.equals
+{
+  grid-column: span 2;
+}
+button.equals
+{
+  background-color: #cd3c2d;
+  color: white;
+}
+
+
+
+button.equals:hover {
+  background-color: #45a049;
+}
+
+button.dels
+{
+  background-color: #646e96;
+  color:#e9ebed;
+}
+.dec
+{
+  position: absolute;
+  top: 80px;
+  right: 380px;
+  width: 43vw;
+  height: 40vh;
+  font-family: Corbel, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+.calc
+{
+  position: absolute;
+  top:80px;
+  left:335px;
+  color: #e9ebed;
+  font-family: Corbel, sans-serif;
+  font-weight: bold;
+}
+.theme
+{
+  position: absolute;
+  left:715px;
+  top:80px;
+  color: #e9ebed;
+  font-family: Corbel, sans-serif;
+  font-weight: bold;
+}
+.slider-label
+{
+  color: #e9ebed;
+  font-family: Corbel, sans-serif;
+  font-weight: bold;
+  position: absolute;
+  right:60px;
+  top:63px;
+  left:793px;
+}
+.slider#slides
+{
+  position: absolute;
+  right:380px;
+  top:83px;
+  left:772px;
+}
